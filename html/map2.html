@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Map Integration</title>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSWYT2ZTWCa5ZGBtAWWwPFphs2R8888w4&callback=initMap" async defer></script>
+</head>
+<body>
+    <h2>Google Maps Example</h2>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            var location = { lat: 23.155467, lng: 79.926076 }; // Your coordinates
+
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: location
+            });
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: "Your Location"
+            });
+        }
+    </script>
+</body>
+</html>

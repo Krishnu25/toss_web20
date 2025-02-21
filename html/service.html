@@ -1,0 +1,728 @@
+<!doctype html>
+
+
+<html lang="en" class="no-js">
+<head>
+	<title>Toss Solutions</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+	<!--build:css css/royarch-assets.min.css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/line-awesome.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/settings.css">
+	<link rel="stylesheet" type="text/css" href="css/layers.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<!--endbuild-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<head>
+		<style>
+			section.services-section .services-box .services-post {
+				/* display: flex; */
+				flex-direction: column;
+				justify-content: space-between;
+				min-height: 300px; /* Adjust as needed */
+			}
+
+			body{
+				background-color: #121212;
+			}
+
+			/* this is for the carousal  */
+
+			/* this is for the alignment */
+			
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; background: #222; color: white; }
+        .carousel-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            white-space: nowrap;
+            padding: 20px;
+        }
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-item {
+            min-width: 300px;
+            height: 200px;
+            margin: 10px;
+            background: #888;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .buttons button {
+            background: rgba(255, 255, 255, 0.5);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+			/* don't touch */
+		/* this is for the alignment  */
+
+
+		/* this is our client css */
+
+		/* this css for the testimonial  */
+		.testimonial-section {
+        background-color: #3d3d3d;
+        padding: 50px 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .testimonial-box {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .testimonial-text {
+        font-size: 18px;
+        font-style: italic;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .testimonial-author {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0 5px;
+    }
+
+    .testimonial-role {
+        font-size: 16px;
+        color: #ccc;
+    }
+	/* testimonial end */
+	
+    </style>
+
+
+	</head>
+</head>
+<body>
+
+<div id="ip-container" class="ip-container">
+	<!-- initial loader -->
+	<div class="ip-header">
+
+		<p class="ip-logo">
+			<!-- <img src="images/logo-image.png" alt=""> -->
+		</p>
+
+		<div class="ip-loader">
+			<svg class="ip-inner" width="100px" height="100px" viewBox="0 0 80 80">
+				<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+				<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+			</svg>
+		</div>
+
+	</div>
+
+	<!-- Container -->
+	<div id="container">
+
+		<!-- Header
+		    ================================================== -->
+		<header class="clearfix">
+
+			<!--  this is the brand logo which name is royarch -->
+			<!-- <div class="logo"> 
+				<a href="index.html"><img src="images/logo-image.png" alt=""></a> -->
+			<!-- </div> -->
+
+			<div class="header-line">
+				<a class="open-menu-toggle" href="#">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+				<div class="social-line">
+					<ul class="social-list">
+						<li>
+							<a href="https://www.facebook.com/profile.php?id=100069347405899&mibextid=ZbWKwL"><i class="fab fa-facebook-square"></i></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/tosssolutionsindia/"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/company/toss-solutions-training-outsourcing-sales-service?_l=en_US"><i class="fab fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="copyright-line">
+					<p>Toss Solutions </p>
+				</div>
+			</div>
+
+		<!-- here navbar starts -->
+		<nav class="nav-menu-box">
+			<ul class="navigation-menu-list">
+				<li>
+					<a href="index.html"><span><em>Home</em></span></a>
+					<!-- Home section -->
+				</li>
+				<li>
+				<a href="about.html"><span><em>About</em></span></a>
+				<li>
+					<a href="service.html"><span><em>Our Services</em></span></a>
+					<!-- Services section -->
+				</li>
+				<li>
+					<a href="contact.html"><span><em>Contact</em></span></a>
+					<!-- Contact section -->
+				</li>
+				<li>
+					<a href="Lifeattoss.html"><span><em>Life At Toss</em></span></a>
+					<!-- Life at Toss -->
+				</li>
+			</ul>
+		</nav>
+		</header>
+		<!-- End Header -->
+  
+		<div id="content">
+			
+			<!-- page-banner-section 
+				================================================== -->
+			<section class="page-banner-section">
+				<div class="container">
+					<h1>services</h1>
+					<p>The solution that you have dreamed</p>
+				</div>
+				<div class="info-box">
+					<p>
+						<!--  phone number -->
+						<i class="fa fa-phone-square"></i>
+						+91-9770505859
+						<span class="divider-line"></span>
+
+						<i class="fa fa-envelope-square"></i>
+						Directors@TossSolution.com
+						<!-- mobile number -->
+					</p>
+				</div>
+			</section>
+			<!-- End page-banner section -->
+
+			<!-- services-section 
+				================================================== --> 
+				<section class="services-section">
+					<div class="container">
+						<div class="title-box">
+							<h2 style="text-align: center; font-size: 40px;">Solutions We Provide</h2>
+						</div>
+				
+						<div class="services-box">
+							<div class="row">
+				
+								<div class="col-lg-3 col-md-6">
+									<a href="web_crawling.html">
+										<div class="services-post">
+											<i class="fas fa-spider"></i>
+											<h4>Web Crawling</h4>
+											<p>Manual and Automated Crawling</p>
+										</div>
+									</a>
+								</div>
+				
+								<div class="col-lg-3 col-md-6">
+									<a href="annotation_services.html">
+										<div class="services-post">
+											<i class="fas fa-box-open"></i>
+											<h4>Annotation & Transcription Services</h4>
+											<p>Precise data labeling for AI/ML applications</p>
+										</div>
+									</a>
+								</div>
+				
+								<div class="col-lg-3 col-md-6">
+									<a href="Ecommerce.html">
+										<div class="services-post">
+											<i class="fas fa-shopping-cart"></i>
+											<h4>E-commerce Support</h4>
+											<p>End-to-end Services, including competitive mapping and cataloging.</p>
+										</div>
+									</a>
+								</div>
+				
+								<div class="col-lg-3 col-md-6">
+									<a href="Training&development.html">
+										<div class="services-post">
+											<i class="fas fa-code-branch"></i>
+											<h4>Training & Development</h4>
+											<p>Cast your impression with a design</p>
+										</div>
+									</a>
+								</div>
+				
+							</div>
+						</div>
+					</div>
+				</section>
+				
+			<!-- End services-section -->
+
+			<!-- services-section2 
+				================================================== -->
+			<section class="services-section2">
+
+				<div class="container">
+					<div class="title-box center-title">
+						<!-- <span>Enhance your future</span> -->
+						<h2> WHY CHOOSE US</h2>
+					</div>
+					<div class="services-box2">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="services-post2">
+									<div class="icon">
+										<span class="material-icons-outlined">
+											home
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Expertise</h4>
+										<p> Our team comprises industry experts well-versed in ecommerce and cutting-edge technologies.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- here ends -->
+
+
+							<div class="col-lg-6">
+								<div class="services-post2">
+									<div class="icon">
+										<span class="material-icons-outlined">
+											design_services
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Tailored Solutions</h4>
+										<p>Understand that every business is unique; our services are customized to suit your specific requirements</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="services-post2">
+									<div class="icon">
+										<span class="material-icons-outlined">
+											fingerprint
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Quality</h4>
+										<p>Take pride in delivering high-quality results and ensuring data accuracy.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-post2">
+									<div class="icon">
+										<span class="material-icons-outlined">
+											architecture
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Customer-Centric Approach</h4>
+										<p>Your success is our priority, and we go the extra mile to enhance your customers' experience.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			
+			<br>
+			<br>
+			<!-- <br> -->
+			   
+				<section class="services-section4">
+
+					<div class="container">
+						<!-- Heading added before the columns -->
+						<div class="title-box center-title">
+							<h2>OUR COMPREHENSIVE OFFERINGS</h2>
+						</div>
+						<br>
+						<br>
+				<div class="services-box4">
+					<div class="services-post4">
+						<img src="images/services/prodcut _mapping2.png" alt="service1">
+						<div class="serv-content">
+							<span class="material-icons-outlined">
+							light_mode
+							</span>
+							<h4> Product Mapping</h4>
+							<p>
+								Optimize market presence through
+								informed decisions.</p>
+						</div>
+					</div>
+					<div class="services-post4">
+						<img src="images/services/annotation_fresh.png" alt="service2">
+						<div class="serv-content">
+							<span class="material-icons-outlined">
+							settings_system_daydream
+							</span>
+							<h4> Annotation and Transcription</h4>
+							<p>Annotation is the process of adding labels and metadata to a file. <p>
+						</div>
+					</div>
+					<div class="services-post4">
+						<img src="images/services/employability.png" alt="service3">
+						<div class="serv-content">
+							<span class="material-icons-outlined">
+							imagesearch_roller
+							</span>
+							<h4> Employability Training Courses.</h4>
+							<p>Benefits for Career Growth</p>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<!-- End services-section4 -->
+			<!-- this section is about what our client say about us -->
+			<section class="portfolio-section">
+				<h2 class="section-title">What Our Clients Say About Us</h2>
+			<!-- <span> 	<h2>OUR COMPREHENSIVE OFFERINGS</h2> </span> -->
+					<div class="container">
+						<div class="portfolio-box iso-call">
+		<div class="portfolio-post houses villas">
+								<figure class="effect-milo hover2">
+									<img src="images/services/testimonial-back1.jpg" alt="portfolio2"/>
+									<figcaption>
+										<p style="color:#ffff00;"> <strong> Manager For a Digital Advertising Agency  </strong> </p>
+										<h4><a href="service.html" style="color:#ffffff;">"TOSS data analysis optimized our marketing campaigns, providing expert insights that led to a significant increase in ROI and efficiency." </a></h4>
+										<a href="#">
+										<a href="service.html">
+											<span class="material-icons-outlined">
+												article
+											</span>
+										</a>
+									</figcaption>			
+								</figure>
+							</div>
+	
+							<div class="portfolio-post interior">
+								<figure class="effect-milo hover2">
+									<img src="images/services/testimonial-back1.jpg" alt="portfolio3"/>
+									<figcaption>
+										<p style="color:#ffff00;">  <strong> CEO A LANGUAGE TECHNOLOGY COMPANY </strong> </p>
+										<h4><a href="service.html" style="color:#ffffff;">TOSS Solutions provided accurate, timely, and affordable transliterations, helping us develop high-quality language products. </a></h4>
+										<a href="#">
+										<a href="service.html">
+											<span class="material-icons-outlined">
+												article
+											</span>
+										</a>
+									</figcaption>			
+								</figure>
+							</div>
+	
+							<div class="portfolio-post buildings">
+								<figure class="effect-milo hover2">
+									<img src="images/services/testimonial-back1.jpg" alt="portfolio4"/>
+									<figcaption>
+										<p style="color:#ffff00;"> <strong>  FOUNDER OF ANNOTATION <br> SOLUTIONS </strong></p>
+										<h4><a href="service.html" style="color:#ffffff;"> "TOSS Solutions' data annotation improved our ML models with a professional, responsive, and high-quality team.</a></h4>
+										<a href="#">
+											<span class="material-icons-outlined">
+												article
+											</span>
+										</a>
+									</figcaption>			
+								</figure>
+							</div>
+	
+							<div class="portfolio-post wood">
+								<figure class="effect-milo hover2">
+									<img src="images/services/testimonial-back1.jpg" alt="portfolio5"/>
+									<figcaption>
+										<p style="color:#ffff00;"> <strong>  SENIOR SUPPLIERS & PROCUREMENT MANAGER  </strong></p>
+										<h4><a href="service.html" style="color:#ffffff;"> "TOSS provided accurate, timely transcriptions for Indian languages, exceeding expectations and helping us achieve project goals." </a></h4>
+										<a href="#">
+											<span class="material-icons-outlined">
+												article
+											</span>
+										</a>
+									</figcaption>			
+								</figure>
+							</div>
+	
+							<div class="portfolio-post exterior houses">
+								<figure class="effect-milo hover2">
+									<img src="images/services/testimonial-back1.jpg" alt="portfolio6"/>
+									<figcaption>
+										<p style="color:#ffff00;"> <strong> DIRECTOR OF AN ONLINE
+											RETAIL BUSINESS </strong></p>
+											<h4><a href="service.html" style="color:#ffffff;">"TOSS's business intelligence services have been invaluable, helping us identify opportunities, expand markets, and delivering timely, actionable insights."</a></h4>
+											<a href="#">
+										<a href="#">
+											<span class="material-icons-outlined">
+												article
+											</span>
+										</a>
+									</figcaption>			
+								</figure>
+							</div>
+	
+							<div class="portfolio-post exterior houses">
+								<figure class="effect-milo hover2">
+									<img src="images/services/testimonial-back1.jpg" alt="portfolio6"/>
+									<figcaption>
+										<p style="color:#ffff00;"> <strong> Recognized Annotation and Transcription Solutions </strong> </p>
+											<h4><a href="service.html" style="color:#ffffff;" >"TOSS's business intelligence services have been invaluable, helping us identify opportunities, expand markets, and delivering timely, actionable insights." </a></h4>
+											<a href="#">
+										<a href="#">
+											<span class="material-icons-outlined">
+												article
+											</span>
+										</a>
+									</figcaption>			
+								</figure>
+							</div>
+							
+						</section>
+	
+							<!-- this is the starting of the deleting the thing -->
+						
+     
+
+			<!-- services-section5 
+				================================================== -->
+			<section class="services-section5">
+
+				<div class="container">
+					<div class="title-box">
+						<!-- <span>The art of building</span> -->
+						<h2>OUR STRENGTHS</h2>
+					</div>
+					<div class="services-box5">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="services-post5">
+									<div class="icon">
+										<span class="material-icons-outlined">
+										app_registration
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>50+ Years of Combined Expertise Creative Architecture designs</h4>
+										<p>across training, operations,
+											AI/ML, and e-commerce.</p>
+									</div>
+								</div>
+
+								<div class="services-post5">
+									<div class="icon">
+										<span class="material-icons-outlined">
+										crop_rotate
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Flexible and Trainable Workforce</h4>
+										<p>adaptable to diverse business
+											needs.</p>
+									</div>
+								</div>
+
+								<div class="services-post5">
+									<div class="icon">
+										<span class="material-icons-outlined">
+										straighten
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>In-House Product Design</h4>
+										<p>enabling quick adaptability and efficient
+											solutions
+											</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services-post5">
+									<div class="icon">
+										<span class="material-icons-outlined">
+										cottage
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4> Scalable Solutions tailored</h4>
+										<p>to businesses of all sizes.</p>
+									</div>
+								</div>
+
+								<div class="services-post5">
+									<div class="icon">
+										<span class="material-icons-outlined">
+											architecture
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Customer-Centric Approach</h4>
+										<p>ensuring innovation, quality, and
+											excellence.</p>
+									</div>
+								</div>
+								
+								<div class="services-post5">
+									<div class="icon">
+										<span class="material-icons-outlined">
+										highlight
+										</span>
+									</div>
+									<div class="serv-content">
+										<h4>Trusted by industry leaders</h4>
+										<p> like Flipkart and Defined Crowd, Tellus
+											International & More...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- End services-section5 -->
+			
+
+			<!-- footer 
+				================================================== -->
+			<footer class="template-footer">
+				<a class="go-top" href="#">
+					<i class="far fa-arrow-alt-circle-up"></i>
+				</a>
+				
+				<!--  this is the brand starting page -->
+				<div class="instagram-line">
+					<div class="container">
+						<ul class="insta-list">
+							<li><img src="images/about/brand/definedcrowd.png" alt="DefinedCrowd"></li>
+							<li><img src="images/about/brand/flipkart_can.png" alt="Flipkart"></li>
+							<li><img src="images/about/brand/impacts.png" alt="Impacts"></li>
+							<li><img src="images/about/brand/indikaai.png" alt="IndikaAI"></li>
+							<li><img src="images/about/brand/playment.png" alt="Playment"></li>
+							<li><img src="images/about/brand/shaip.png" alt="Shaip"></li>
+							<li><img src="images/about/brand/trell.png" alt="Trell"></li>
+							<!-- <li><img src="images/about/brand/telus.png" alt="Telus"></li> -->
+						</ul>
+					</div>
+				</div>
+				
+				<div class="widget-part-area">
+					<div class="footer-widget-line">
+						<div class="image-widget">
+							<a href="index.html"><img src="images/footer-logo.png" alt=""></a>
+						</div>
+					</div>
+					<div class="footer-widget-line">
+						<h5>Locations</h5>
+						<ul class="custom-list">
+							<li><a href="#">Jabalpur</a></li>
+						</ul>
+					</div>
+					<div class="footer-widget-line">
+						<h5>Connect</h5>
+						<ul class="custom-list">
+							<li><a href="https://www.instagram.com/tosssolutionsindia/">instagram</a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100069347405899&mibextid=ZbWKwL">facebook</a></li>
+						</ul>
+					</div>
+					<div class="footer-widget-line">
+						<h5>Get in Touch</h5>
+						<ul class="custom-list">
+							<li><a href="#">Directors@TossSolution.com</a></li>
+							<li><a href="#">+91-9770505859 <br> +91-7828546070 </a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				</footer>
+			<!-- End footer -->
+			
+		</div>
+
+	</div>
+	<!-- End Container -->
+</div>
+
+	<!--build:js js/royarch-plugins.min.js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.migrate.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.nouislider.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.imagesloaded.min.js"></script>
+  	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/pathLoader.js"></script>
+	<script src="js/jquery.themepunch.tools.min.js"></script>
+	<script src="js/jquery.themepunch.revolution.min.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<!-- endbuild -->
+	<script src="js/jquery.countTo.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyCiqrIen8rWQrvJsu-7f4rOta0fmI5r2SI&amp;sensor=false&amp;language=en"></script>
+	<script src="js/gmap3.min.js"></script>
+	<script src="js/script.js"></script>
+	
+<script> 
+
+
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
+
+</script> 
+
+
+	
+</body>
+</html>

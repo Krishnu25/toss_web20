@@ -1,0 +1,70 @@
+# TOSS Solution
+
+Welcome to the **TOSS Solution** website repository! This project is a responsive, professional website for TOSS Solution, showcasing its services, expertise, and contact information.
+
+---
+
+## 📄 About
+**TOSS Solution** is committed to redefining outsourcing and empowering businesses through innovative solutions. This website features:
+- A modern, user-friendly design.
+- Comprehensive details about services, including Web Crawling, AI/ML Annotation, and Training & Development.
+- Social media links for connecting with the company.
+
+---
+
+## 🚀 Features
+- **Responsive Design**: Mobile-friendly layout for seamless viewing on any device.
+- **Unique Sections**: Dynamic navigation for sections like Hero, About Us, Services, and more.
+- **Social Integration**: Quick links to Facebook, Instagram, and LinkedIn.
+- **Contact Information**: Easy access to phone numbers and email.
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5** for structure
+- **CSS3** for styling
+  - Google Fonts: Montserrat, Rubik
+  - Bootstrap for layout
+- **JavaScript** for interactivity
+  - jQuery
+  - Owl Carousel
+  - Magnific Popup
+- **Google Maps API** for location services
+
+---
+
+## 📂 Folder Structure
+
+
+TOSS-Solution/ ├── css/ # Stylesheets ├── images/ # Images and logos ├── js/ # JavaScript files ├── upload/ # Dynamic content images ├── index.html # Homepage ├── about.html # About page ├── portfolio.html # Portfolio page ├── contact.html # Contact page └── README.md # Project documentation
+
+
+---
+
+## 🌐 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/TOSS-Solution.git
+
+2. Navigate to the project folder:
+   cd TOSS-Solution
+
+3. Open index.html in your browser to view the website.
+
+
+
+📧 Contact
+
+For any inquiries, please reach out:
+Phone: +91 9755253630, +91 9770505859
+Email: info@tosssolution.com
+
+
+📝 License
+
+This project is licensed under the MIT License.
+⭐ Social Links
+
+Facebook
+Instagram
+LinkedIn
